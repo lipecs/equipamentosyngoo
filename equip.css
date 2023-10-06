@@ -1,8 +1,8 @@
 /* header */
 
 header {
-    background: #e8e8e8;
-    color: #e8e8e8;
+    background: #ffffff;
+    color: #ffffff;
     display: flex;
     padding: 1em;
     position: fixed;
@@ -20,8 +20,8 @@ header {
     position: relative;
     display: block;
     /* make it look decent enough */
-  background-color: #e8e8e8;
-    color: #c2090900;
+  background-color: #ffffff;
+    color: #ffffff00;
     font-family: "Avenir Next", "Avenir", sans-serif;
     background-image: image(lovepik);
     max-width: 100%; /* Largura máxima da div de conteúdo */
@@ -651,8 +651,8 @@ header {
       max-width: 100%;
       padding: 40px 0;
       color: #fff;
-      background-color: #1f133141;
-      
+      background-color: #f6f6f656;
+      border-radius: .5rem;
       .header-wrapper {
         
         margin: 0 auto;
@@ -681,7 +681,7 @@ header {
       
       padding: 80px 0 0 20px; 
     
-      background-color: #ffffff21;
+      background-color: #ffffff00;
       
       h1 {font-size: 36px;}
       
@@ -873,3 +873,38 @@ header {
 
 
 
+    body{
+      
+        background: #24674027 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+      -webkit-animation: 10s linear 0s normal none infinite animate;
+      -moz-animation: 10s linear 0s normal none infinite animate;
+      -ms-animation: 10s linear 0s normal none infinite animate;
+      -o-animation: 10s linear 0s normal none infinite animate;
+      animation: 10s linear 0s normal none infinite animate;
+     
+    }
+     
+    @-webkit-keyframes animate {
+      from {background-position:0 0;}
+      to {background-position: 500px 0;}
+    }
+     
+    @-moz-keyframes animate {
+      from {background-position:0 0;}
+      to {background-position: 500px 0;}
+    }
+     
+    @-ms-keyframes animate {
+      from {background-position:0 0;}
+      to {background-position: 500px 0;}
+    }
+     
+    @-o-keyframes animate {
+      from {background-position:0 0;}
+      to {background-position: 500px 0;}
+    }
+     
+    @keyframes animate {
+      from {background-position:0 0;}
+      to {background-position: 500px 0;}
+    }
